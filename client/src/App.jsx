@@ -1,15 +1,17 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
-import About from "./components/About";
-import Dashboard from "./components/Dashboard";
-import Projects from "./components/Projects";
-import SignIn from "./components/SignIn";
-import SignUp from "./components/SignUp";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Dashboard from "./pages/Dashboard";
+import Projects from "./pages/Projects";
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
+import Header from "./components/Header";
 
 export default function App() {
   return (
     <BrowserRouter>
+    <Header></Header>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
