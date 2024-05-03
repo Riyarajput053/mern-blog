@@ -46,7 +46,7 @@ const Header = () => {
             <Button className='w-12 h-10 hidden sm:inline' color='gray' pill>
                 <FaMoon/>
            </Button>
-           <Button className=' bg-gradient-to-r from-[#265073] via-[#2D9596] to-[#9AD0C2] '>
+           <Button className=' bg-[#2D9596]'>
             Sign In
            </Button>
            <Navbar.Toggle/>
