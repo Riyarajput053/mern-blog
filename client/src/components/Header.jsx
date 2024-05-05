@@ -49,9 +49,9 @@ const Header = () => {
            <Button className=' bg-[#2D9596]'>
             Sign In
            </Button>
-           <Navbar.Toggle/>
 
         </div>
+           <Navbar.Toggle />
        
     </Navbar>
   )
